@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.example;
+
+service ServerInfo {
+  rpc ServerInfoTask(ServerInfoMsg.Request) returns (ServerInfoMsg.Response);
+}
+
+message ServerInfoMsg {
+  message Request {
+    string requester = 1;
+  }
+
+  message Response {
+    string requester = 1;
+    string info = 2;
+    string time = 3;
+  }
+}
