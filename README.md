@@ -16,7 +16,7 @@
 
 ## GrpcProto
 
-1. build.gradle 작성 <br/><br/>
+1. build.gradle 작성
     * plugins에 protobuf 추가
 
    ```groovy
