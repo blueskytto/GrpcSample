@@ -99,7 +99,7 @@
 
 ## GrpcServer
 
-1. build.gradle 작성<br/><br/>
+1. build.gradle 작성
 
     * dependencies 라이브러리 추가
    > * 프로젝트에 /libs 폴더를 생성 후, grpcProto에서 빌드되어 나온 라이브러리를 복사
@@ -126,7 +126,7 @@
 
 ## GrpcClient
 
-1. build.gradle 작성<br/><br/>
+1. build.gradle 작성
 
     * dependencies 라이브러리 추가
    > * 프로젝트에 /libs 폴더를 생성 후, grpcProto에서 빌드되어 나온 라이브러리를 복사
