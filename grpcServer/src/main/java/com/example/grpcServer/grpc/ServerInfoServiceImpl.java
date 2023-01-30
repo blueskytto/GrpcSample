@@ -34,8 +34,7 @@ public class ServerInfoServiceImpl extends ServerInfoGrpc.ServerInfoImplBase {
             throw new RuntimeException(e);
         }
 
-
-        log.info("서비스 요청 : ", request.getRequester());
+        log.info("서비스 요청 : {}", request.getRequester());
 
         ServerInfoOuterClass.ServerInfoMsg.Response response = ServerInfoOuterClass.ServerInfoMsg.Response.newBuilder()
                 .setRequester(request.getRequester())
